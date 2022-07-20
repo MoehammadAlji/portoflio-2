@@ -1,0 +1,466 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.side-bar {
+    background-color: #212322;
+    width: 288px;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 23px 56px 16px 56px;
+    /* min-height: 100vh; */
+}
+
+.main-content {
+    background-color: white;
+    padding: 22px 56px;
+    /* width: 1440px; */
+}
+
+.logomenu {
+    display: none;
+}
+
+.side-bar .main .list-item {
+    /* margin: 10px 0px; */
+    margin-bottom: 20px;
+}
+
+.side-bar .main .list-item-portofolio {
+    margin-bottom: 20px;
+}
+
+.side-bar .main .list-item .description {
+    border-radius: 4px;
+}
+
+.side-bar .main .list-item-portofolio .description {
+    border-radius: 4px;
+}
+
+.side-bar .main .list-item-keluar .description {
+    border-radius: 4px;
+}
+
+.side-bar-mobile {
+    display: none;
+}
+
+.list-item a {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    color: #808080;
+}
+
+.header .list-item-logo a img {
+    margin-bottom: 100px;
+}
+
+.list-item-logo a {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item-portofolio a {
+    text-decoration: none;
+    gap: 10px;
+    color: #ffff;
+}
+
+.list-item-keluar a {
+    text-decoration: none;
+    gap: 10px;
+    color: #ffff;
+}
+
+
+.main .list-item a {
+    display: flex;
+    align-items: center;
+    padding: 16px 26px;
+}
+
+.main .list-item-portofolio a {
+    display: flex;
+    align-items: center;
+    padding: 16px 23px;
+    gap: 10px;
+    background: #00B140;
+    border-radius: 4px;
+}
+
+.main .list-item-keluar a {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    padding: 16px 23px;
+    gap: 10px;
+    background: #fff;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.main .list-item-keluar a h3 {
+
+    color: #212322;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.main .list-item-portofolio a h3 {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.main .list-item a h3 {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar-brand h1 {
+    color: #212322;
+}
+
+.main-content .portofolio-header h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 60px;
+    color: #212322;
+}
+
+
+.container-daftar-project {
+    display: flex;
+    height: 32px;
+    /* left: 344px;
+    top: 112px; */
+    /* background-color: blue; */
+    justify-content: space-between;
+    margin-bottom: 44px;
+    align-items: center;
+}
+
+.container-daftar-project h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.content {
+    display: flex;
+    padding: 0px 0px 0px;
+    gap: 56px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.content .article {
+    width: 492px;
+}
+
+.content .article #gambar {
+    width: 100%;
+}
+
+
+.content .article header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .article header h3 {
+    width: 224px;
+}
+
+.content .description {
+    padding: 20px;
+}
+
+.content .article h3 {
+    color: #212322;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* padding: 0; */
+}
+
+.content .article p {
+    margin-top: 16px;
+    color: #808080;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.genre ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.genre ul li {
+    list-style-type: none;
+    background: rgba(0, 177, 64, 0.08);
+    border-radius: 2px;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    color: #00B140;
+}
+
+.content .project-link {
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.content .project-period {
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+
+.content .project-link h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #00B140;
+    line-height: 18px;
+    align-items: center;
+}
+
+.content .project-period h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+}
+
+.content .article .project-description h3 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #212322;
+}
+
+.genre-tool {
+    margin-top: 20px;
+}
+
+.genre-tool ul {
+    display: flex;
+    gap: 16px;
+
+}
+
+.genre-tool ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    width: 52px;
+    height: 24px;
+    background: rgba(8, 84, 115, 0.08);
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #085473;
+}
+
+.xd {
+    padding: 4px 8px;
+    width: 33px !important;
+    height: 24px;
+    background: rgba(8, 84, 115, 0.08);
+    border-radius: 2px;
+}
+
+.genre-tool ul .sub-genre-tool {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+
+    width: 110px;
+    height: 24px;
+
+    background: rgba(8, 84, 115, 0.08);
+    border-radius: 2px;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .logomenu {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 24px;
+
+    }
+
+    .logomenu.click {
+        right: 360px;
+    }
+
+    .logomenu img {
+        cursor: pointer;
+        transition: left 0.4s ease;
+    }
+
+    .side-bar {
+        display: none;
+
+    }
+
+    .container {
+        display: block;
+    }
+
+    .main-content .portofolio-header h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 24px;
+
+    }
+
+    .main-content {
+        background-color: white;
+        padding: 20px 24px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .content .article {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    /* .content .article {
+        height: 624px;
+    } */
+
+    .genre ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 12px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        flex-wrap: wrap;
+        width: 264px;
+
+    }
+
+    .side-bar-mobile {
+        background-color: #212322;
+        width: 288px;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding: 23px 32px 30px 32px;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translateX(0%);
+        transition: all 300ms ease-in-out;
+    }
+
+    .side-bar-mobile-toggle {
+        transform: translateX(100%);
+    }
+
+    .side-bar-mobile .header {
+        padding-bottom: 8px;
+    }
+
+    .side-bar-mobile .main {
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .side-bar-mobile .main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .side-bar-mobile .main .list-item {
+        margin: 10px 0px;
+    }
+
+    .list-item-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list-item-logo img {
+        cursor: pointer;
+    }
+
+    .description-header {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .genre-tool ul .sub-genre-tool {
+        width: 110px;
+    }
+
+
+    /* .genre{
+    } */
+}
